@@ -1,0 +1,230 @@
+body {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  background-color: #77adbe;
+  color: #fff;
+
+}
+
+
+.white-section {
+  margin-top: 15%;
+}
+
+
+
+h2 {
+
+
+}
+
+
+h3 {
+  font-size: 1.5rem;
+  color: #ff93dd;
+
+}
+
+p {
+  color: #e8e2ff;
+  font-size: 1.5rem;
+}
+
+.supply-chain-paragraph {
+  text-align: left;
+}
+.section-heading {
+  font-family: "Montserrat-Bold";
+  color: #e8e2ff;
+}
+
+.speech {
+  text-align: left;
+}
+
+.colored {
+  background-color: #77adbe;
+}
+
+.people-photo {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 5%;
+  border: 5px solid #555;
+}
+
+
+
+.intro {
+  font-size: 1.5rem;
+}
+/* Headings */
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding-bottom: 3%;
+
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 5%;
+  background-color: #77adbe;
+
+}
+
+
+.quote {
+  color: black;
+}
+
+#features {
+  position: relative;
+  color: #fff;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  color: #ff93dd;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.features-img {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 5%;
+  border: 5px solid #555;
+}
+
+
+
+.card {
+  background-color: #6f5acd;
+}
+
+
+
+
+/* Title Section */
+
+#title {
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+
+  width: 60%;
+  position: absolute;
+  right: 10%;
+
+
+}
+
+.btn-dark {
+color: #oc3f64;
+}
+
+.download-button {
+  margin: 5% 3% 0% 0;
+  font-style: bold;
+  color: #oc3f64;
+
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  color: #fff;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: left;
+}
+
+/* CTA Section */
+#footer {
+  background-color: #ef8172;
+}
+
+/* Footer Section */
+
+.supply-chain-image {
+  width: 100%;
+  border: 5px solid #555;
+}
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.last-section {
+  background-color: black;
+}
+
+.work-paragraph {
+  margin-bottom:  20%;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    padding-top: 15%;
+    position: static;
+    transform: rotate(0);
+  }
+
+  .supply-chain-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
